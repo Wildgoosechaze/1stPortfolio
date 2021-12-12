@@ -88,15 +88,11 @@ h2.nav-title{
     margin-right: 0;
 }
 
+
+
 /* Nav CSS end */
 
-.logo,.contactLogo {
-    width: 2rem;
-    height: 2rem;
-    padding: 0 ;
-    margin: 0 ;
-    border-radius: 35%;
-}
+
 
 
                 /* Header */
@@ -132,28 +128,56 @@ header h1 {
 /* Header End */
 
 /* Body */
+section{
+    height: 200;
+    margin-bottom: 25px;
+}
 
-.contactLinks {
+.logo {
+    width: 2rem;
+    height: 2rem;
+    padding: 0 ;
+    margin: 0 ;
+    border-radius: 35%;
+}
+
+.contactLinksSection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     text-align: center;
     overflow-x: hidden;
-    margin: 10px;
+    margin-bottom: 40px;
     }
 
+
 .contactLogo {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 ;
+    border-radius: 35%;
     padding: .62Rem;
 }
   
 
+.contactLogo:hover {
+    box-shadow: 3px 6px #B48B78 ;
+    transition: box-shadow .1s ease-in;
+}
 
 
 
 
 
 /* Button */
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
 
 .contactButton {
     color: #EFEBE9;
@@ -164,6 +188,18 @@ header h1 {
     font-size: large;
 }
 
+.contactButton:hover {
+        background-color: #efEBE9;
+        color: #008f22;
+        transition: color .1s ease-in, background-color .1s ease-in;
+        
+}
+
+.contactButton:active {
+  font-size: 20px;
+  font-weight: bold;
+  transition: font-size .1s;
+}
 
 
 
