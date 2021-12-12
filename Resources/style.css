@@ -1,0 +1,191 @@
+/* Colors::
+Pallete 1
+Jet Black : #040000
+Peach : #F6C7A5
+Scallop Seashell : #F2D0C1
+White : #F7F8F8
+
+Pallet 2: 
+Taupe : #B1ACA9
+Teal : #499FA4
+Tiger Lily : #AB6962
+Sage Green : #A7A08D
+
+
+pallete 3: 
+Taupe: #E2DAD4
+Tan: #B48B78
+Carafe: #74584D
+Jet Black : #29000A 
+*/
+
+html {
+    font-family: "fjalla one", sans-serif;
+    font-size: 16px;
+    font-size: 22px;
+    color: #29000A;
+    background-color: #E2DAD4;
+    text-align: center;
+  }
+
+h1,h2,h3,h4 {
+    font-family: "canterell", sans-serif;
+    margin: 0;
+}
+  
+                    /* Nav */
+
+/* Nav CSS Start */
+Nav {
+    display:flex;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: #74584D;
+    color: #EFEBE6;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid  #9AB19A;
+    top: 0;
+    left: -1%
+}
+
+.nav-left {
+    display: flex;
+    justify-content :space-evenly 
+} 
+
+.nav-left img,h2 {
+    padding: .75rem;
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 2rem;
+
+}
+
+li {
+    margin: 10PX;
+    padding-left: 10PX;
+    
+}
+
+a {
+    color: #EFEBE9;
+}
+
+a:hover {
+    color: #9AB19A;
+    text-decoration: underline;
+}
+
+h2.nav-title{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* Nav CSS end */
+
+.logo,.contactLogo {
+    width: 2rem;
+    height: 2rem;
+    padding: 0 ;
+    margin: 0 ;
+    border-radius: 35%;
+}
+
+
+                /* Header */
+
+header {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-image: url("./Resources/images/glasses-eyecatching-2.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    opacity: .9;
+    display: inline-flex;
+    flex-shrink: 1 ;
+    
+}
+
+header h1 {
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem 0;
+    line-height: 1.75rem;
+    background-color:#EFEBE9;
+    color: #2F362F;
+    font-weight: bolder;
+    font-size: 60px;
+}
+/* Header End */
+
+/* Body */
+
+.contactLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 10px;
+    }
+
+.contactLogo {
+    padding: .62Rem;
+}
+  
+
+
+
+
+
+
+/* Button */
+
+.contactButton {
+    color: #EFEBE9;
+    background-color: #008f22 ; 
+    height: 70px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+
+       /* footer */
+
+       
+
+       footer h3{
+           padding: 1rem;
+           margin-top: 10px;
+           
+       }
+footer span {
+    float: none;
+} 
+
+footer a {
+    padding-right: .4rem;
+    color: #2F362F;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    /* Footer end */
+}
