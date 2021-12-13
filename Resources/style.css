@@ -16,7 +16,7 @@ pallete 3:
 Taupe: #E2DAD4
 Tan: #B48B78
 Carafe: #74584D
-Jet Black : #29000A 
+Brown Black : #29000A 
 */
 
 html {
@@ -88,7 +88,13 @@ h2.nav-title{
     margin-right: 0;
 }
 
-
+.logo {
+    width: 2rem;
+    height: 2rem;
+    padding: 0 ;
+    margin: 0 ;
+    border-radius: 35%;
+}
 
 /* Nav CSS end */
 
@@ -125,6 +131,13 @@ header h1 {
     font-weight: bolder;
     font-size: 60px;
 }
+
+
+#contactH1 {
+    background-color: #E2DAD4;
+    color: #040000;
+}
+
 /* Header End */
 
 /* Body */
@@ -132,25 +145,6 @@ section{
     height: 200;
     margin-bottom: 25px;
 }
-
-.logo {
-    width: 2rem;
-    height: 2rem;
-    padding: 0 ;
-    margin: 0 ;
-    border-radius: 35%;
-}
-
-.contactLinksSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    text-align: center;
-    overflow-x: hidden;
-    margin-bottom: 40px;
-    }
-
 
 .contactLogo {
     width: 5rem;
@@ -166,6 +160,21 @@ section{
     transition: box-shadow .1s ease-in;
 }
 
+.contactHeader {
+    top : 0px;
+    display: block;
+}
+
+
+.contactLinksSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+    }
 
 
 
@@ -225,3 +234,7 @@ footer a {
 
     /* Footer end */
 }
+
+/* Contact page specific */
+
+

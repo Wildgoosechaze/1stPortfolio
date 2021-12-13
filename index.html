@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Nav to do :
-    Change Logo
+    Change Logo - done 12/12
   Add animation to name (random color cycle on name)
 add animation to nav buttons (Grow and bounce)
 add logo spin?
@@ -21,12 +21,12 @@ Change hrefs -->
    <nav>
       <div class="nav-left">
         <h2 class="nav-title">Nelson Strickland</h2>
-        <img src="" alt="A Funky Goose Logo" class="logo">
+        <img src="./Resources/Images/Icons/gooseFlyingIcon.png" alt="A Funky Goose Logo" class="logo">
       </div>
         <ul class="main-nav-buttons">
             <li><a href="index.html">Home</a></li>
             <li><a href="#featured-section">About</a></li>
-            <li><a href="#about-section" >Cool Things</a></li>
+            <li><a href="#aboutSection" >Cool Things</a></li>
             <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -43,24 +43,21 @@ correctly write img of profile pic into code
 round or diamond the image
  make prev,next,random buttoms change the image
 add an image that only shows up if the math.rdn lands on 42-->
-      <section class="" id="">
-        <img class="" src="" alt="Picture of Nelson Strickland">
+      <section class="photos" id="portfolioPicture">
+        <!-- <img class="" src="./Resources/Images/FB Avi.jpg" alt="Picture of Nelson Strickland"> -->
       </section>
-      <section class="gender-select">
-        <ul class="frames-nav">  
-            <li><a class="bigframe-button" href="https://www.google.com/search?q=wombo+sunglasses&biw=1872&bih=1007&tbm=shop&sxsrf=AOaemvKPBw5Ck9st0KwSkKfVfoqGaa_2mQ%3A1633721518304&ei=rpxgYdn3EbPOytMPgYeLuAY&ved=0ahUKEwjZhor2xrvzAhUzp3IEHYHDAmcQ4dUDCA0&uact=5&oq=wombo+sunglasses&gs_lcp=Cgtwcm9kdWN0cy1jYxADOgQIIxAnOgQIABANOgYIABANEBg6BggAEAcQHjoICAAQCBAHEB46CwgAEIAEELEDEIMBOgUIABCABFD0wAJYmdICYIreAmgAcAB4AIABzgGIAdQHkgEGMTEuMC4xmAEAoAEBwAEB&sclient=products-cc">
-                Previous</a></li>
-            <li><a class="smallframe-button" href="https://www.google.com/search?q=smol+sunglasses&sxsrf=AOaemvJLjv8LZHEhi8ZQN9SHVNKkuoQ0-Q:1633721509856&source=lnms&tbm=shop&sa=X&ved=2ahUKEwiowIbyxrvzAhWBqXIEHVdNCAsQ_AUoAnoECAIQBA&biw=1872&bih=1007&dpr=1">
-              Random</a></li>
-            <li><a class="staffpick-button" href="https://www.youtube.com/watch?v=eJO5HU_7_1w">
-              Next</a></li>
-        </ul>
+    
+      <section class="aboutProjectsSection" id="aboutSection">
+        <h2>Who am Iiiii?</h2>
+        <p><a target="_blank" id="drumlineRef" href="https://youtu.be/iTqiur0xLJU?t=23">....Petey Pablo!</a> 
+          Just kidding, My name is Nelson Strickland and I make websites that make people smile. 
+          I am a creator and an avid learner who also happens to be an aspiring web developer. 
+          I am currently teaching my self to learn how to build content just like this website via various online resources. 
+          I enjoy engaging with the minds of others and hurdling logistical obstacles. 
+          Be sure to check out my projects and if you like what you see let's <a id='aboutContactButton' href="">start a conversation!</a> 
+      </p>
       </section>
 
-
-      <div class="shade">
-      <h2 id="throwing-shade">Throwing Shade Since '93</h2>
-      </div>
 
       <!-- Insert a About section here. title :"Who am III??"
             Start text with ...Petey Pablo! - when people hover a refence display will 
@@ -68,50 +65,14 @@ add an image that only shows up if the math.rdn lands on 42-->
                  -->
                  <!-- Insert another section with links to you projects -->
       <div id="featured-section" class="container">
-      <section class=" featured-section black-sunglass">
-          <img class="featured-img" src="./Css/Resources/images/black-sunglass.jpg" alt="featured-1">
-          <figcaption>May I Have <br> Your Attention <span>40 $</span></figcaption>
-      </section>
-      <section class=" featured-section white-male-sunglass">
-          <img class="featured-img" src="./Css/Resources/images/white-male-sunglass.jpg" alt="featured-2">
-          <figcaption>FU Debbie <br><span>35 $</span></figcaption>
-      </section>
-      <section class="featured-section female-sunglass">
-          <img class="featured-img" src="./Css/Resources/images/female-sunglass.jpg" alt="featured-3">
-          <figcaption>Yesterday is Ova<br> <span>40 $</span></figcaption>
-      </section>
-      
-      <section class="featured-section eminem-sunglass">
-          <img class="featured-img" src="./Css/Resources/images/emimen-sunglass.jpg" alt="featured-4">
-          <figcaption>Air of the Night <br> <span>35 $</span></figcaption>
-      </section>
-      <section class="featured-section 50cent-sunglass">
-          <img class="featured-img" src="./Css/Resources/images/50cent-sunglass.png" alt="featured-5">
-          <figcaption>P.I.M.P. <br> <span>50 $</span></figcaption>
-      </section>
+     
       </div>
       <!-- Insert a skills section:
       Maybe find a way to split square divs diagonally
     On left of skills add: a button that says top secret. when clicked 
   reveals a link to a jdtheanimator youtube video "my favorite video at the moment"
  on right of skills add a simple "would you like to know more that directs them to my contact page" -->
-  <div class="grid">
-      <section id="about-section" class="about">
-          <h2>Nelson Strickland</h2>
-          <img class="founder-photo" src="./Css/Resources/images/founder-image-2.jpg" alt="Founder Image">
-          <p>Nelson Strickland. I developed this project to demonstrate my understanding of HTML, Css, Flex-box, Grids, and Media-queries. 
-              Eminem inspired sunglasses business.<br> <br> 
-              Can you guess which Eminem songs inspired the product names? </p>
-      </section>
-      <section id="news-section" class="news">
-       <h2>News</h2>
-       <img class="moms-spaghetti-photo" src="./Css/Resources/images/moms-spaghetti.PNG" alt="moms-spaghetti-image">
-       <p> <a href="https://www.momsspaghetti.com/" class="moms-spaghetti-button">Mom's Spaghetti</a> Now Open!</p>
-       <p>On Sept 29th Detroit got their first taste of famed rapper Marshal Mathers' new sphaghetti restraunt. 
-           <a href="https://www.msn.com/en-us/news/us/eminem-surprises-customers-by-serving-at-mom-e2-80-99s-spaghetti-his-new-detroit-restaurant/ar-AAOZzbd?ocid=BingNewsSearch" class="read-more-button">
-              Read More</a></p>
-      </section>
-  </div>
+ 
 </div>
       <footer>
       <h3>&copy Copyright 2021</h3>
