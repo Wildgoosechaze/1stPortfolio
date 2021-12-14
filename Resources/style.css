@@ -26,6 +26,7 @@ html {
     color: #29000A;
     background-color: #E2DAD4;
     text-align: center;
+    margin: 0 auto;
   }
 
 h1,h2,h3,h4 {
@@ -88,6 +89,16 @@ h2.nav-title{
     margin-right: 0;
 }
 
+section { 
+
+    height: fit-content;
+    width: fit-content;
+    margin: 50px 25px;
+    text-align: center;
+
+}
+
+
 .logo {
     width: 2rem;
     height: 2rem;
@@ -98,19 +109,62 @@ h2.nav-title{
 
 /* Nav CSS end */
 
+/* INDEX HEADER */
 
+/* INDEX BODY */
+.aboutProjectSection {
+    display: inline-flex;
+    justify-content: space-evenly;
+    height: fit-content;
+}
 
+.aboutSection {
+    width: 40%;
+    height: fit-content;
+}
 
-                /* Header */
+.aboutSection a {
+    color: #29000A;
+}
+
+#projectGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+ 
+ 
+
+     .project { 
+  box-sizing: border -box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #29000A;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+  border: 1px solid #29000A;
+  cursor: pointer;
+  text-decoration: none;
+}
+                /* ContactHeader */
 
 header {
     margin: 0 auto;
     margin-top: 150px;
+    margin-bottom: 20px;
     background-image: url("./Resources/images/glasses-eyecatching-2.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 1rem;
     width: 100%;
     justify-content: center;
     align-self: center;
@@ -140,19 +194,20 @@ header h1 {
 
 /* Header End */
 
-/* Body */
-section{
+/* Contact Body */
+
+/* section{ 
     height: 200;
     margin-bottom: 25px;
-}
+} */
 
 .contactLogo {
     width: 5rem;
     height: 5rem;
-    margin: 0 ;
+    margin-top: 40px;
     border-radius: 35%;
     padding: .62Rem;
-}
+}   
   
 
 .contactLogo:hover {
@@ -160,9 +215,15 @@ section{
     transition: box-shadow .1s ease-in;
 }
 
+.contactLogo:active {
+    box-shadow: 1px 1px #29000A inset;
+    transition: box-shadow 1s ease-out ;
+    
+}
+
 .contactHeader {
     top : 0px;
-    display: block;
+    display: inline-block;
 }
 
 
@@ -174,12 +235,13 @@ section{
     text-align: center;
     overflow-x: hidden;
     margin-bottom: 40px;
+    top: 35px;
     }
 
 
 
 
-/* Button */
+/*Contact Button */
 a{
     text-decoration: underline;
     cursor: pointer;
@@ -212,7 +274,7 @@ a{
 
 
 
-       /* footer */
+       /* Contact footer */
 
        
 
@@ -235,6 +297,5 @@ footer a {
     /* Footer end */
 }
 
-/* Contact page specific */
 
 
