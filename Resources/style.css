@@ -19,8 +19,15 @@ Carafe: #74584D
 Brown Black : #29000A 
 */
 
+/* font-family: 'Souvenir', arial; 
+  font-family: 'Futura-Bold', arial;
+  font-family: 'Futura Narrow Bold', arial;
+
+*/
+
+
 html {
-    font-family: "fjalla one", sans-serif;
+    font-family: 'Futura Narrow Bold', arial; 
     font-size: 16px;
     font-size: 22px;
     color: #29000A;
@@ -29,15 +36,23 @@ html {
     margin: 0 auto;
   }
 
-h1,h2,h3,h4 {
-    font-family: "canterell", sans-serif;
+h1 {
+    font-family: 'Souvenir' ;
+}
+
+h2,h3,h4 {
+    font-family: 'Futura Bold', arial; 
     margin: 10px auto;
+}
+p{
+    font-size: 22px;
 }
   
                     /* Nav */
 
 /* Nav CSS Start */
 Nav {
+    
     display:flex;
     padding: 10px;
     margin: 0 auto;
@@ -53,6 +68,10 @@ Nav {
     left: -1%
 }
 
+#navTitle{
+    font-family: 'Souvenir'; 
+
+}
 .nav-left {
     display: flex;
     justify-content :space-evenly 
@@ -127,7 +146,7 @@ section {
 
 .aboutProjectSection {
     display:grid;
-   grid-template: 10% 20% 30% 10% 20% 10% /repeat(5,20%); 
+   grid-template: 10% 20% 30% 10% 20% 10% /20% 20% 15% 500px 25% 20%;
     width: 100%;
     position: relative;
     margin:2rem ;

@@ -8,8 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Unica+One&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap" rel="stylesheet">
-   
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap" rel="stylesheet"> -->
+    <link href="https://allfont.net/allfont.css?fonts=souvenir" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.net/allfont.css?fonts=futura-bold" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.net/allfont.css?fonts=futura-narrow-bold" rel="stylesheet" type="text/css" />
+
     
     
 </head>
@@ -23,14 +26,14 @@ add logo spin?
 Change hrefs -->
    <nav>
       <div class="nav-left">
-        <h2 class="nav-title">Nelson Strickland</h2>
+        <h2 id="navTitle" class="nav-title">Nelson Strickland</h2>
         <img src="./Resources/Images/Icons/gooseFlyingIcon.png" alt="A Funky Goose Logo" id="indexNavLogo"class="logo">
       </div>
         <ul class="main-nav-buttons">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#featured-section">About</a></li>
-            <li><a href="#aboutSection" >Cool Things</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#aboutSection">About</a></li>
+          <li><a href="#projectGrid" >Cool Things</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
 <!-- header todo:
@@ -77,16 +80,16 @@ todo: add an image that only shows up if the math.rdn lands on 42-->
       </section>
     </div>
      <!-- todo: add links to projects -->
-    
+     target = "_blank"
            <section class="projectSection">
         <h2>Projects</h2>
         <grid id="projectGrid">
-         <a class="project" id="slimShadies" href="">Slim Shadie's</a>
-        <a class="project" id="teaCozy" href="">Tea Cozy</a>
-        <a class="project" id="boringWithFriends" href="">Boring Facts With Friends</a>
-        <a class="project" id="BDE" href="">BDE Official Team</a>
-        <a class="project" id="animationSlider" href="">Stay Afloat Animation</a>
-        <a class="project" id="#" href="">Coming Soon...</a>
+         <a  target = "_blank"   class="project" id="slimShadies" href="https://wildgoosechaze.github.io/Slim-Shadie-s/">Slim Shadie's</a>
+        <a target = "_blank"  class="project" id="teaCozy" href="https://wildgoosechaze.github.io/teaCozy_cssPrac/">Tea Cozy</a>
+        <a target = "_blank"  class="project" id="animationSlider" href="https://wildgoosechaze.github.io/AnimationSlider/">Stay Afloat Animation</a>
+        <a  target = "_blank" class="project" id="boringWithFriends" href="">Boring Facts With Friends</a>
+        <!-- <a class="project" id="BDE" href="">BDE Official Team</a> -->
+         <!-- <a class="project" id="#" href="">Coming Soon...</a> -->
       </grid>
       </section>
 
